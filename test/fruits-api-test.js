@@ -14,6 +14,8 @@ const fruits = proxyquire('../lib/api/fruits', {
   '../db': mockDb
 });
 
+//this is a comment
+
 describe('Fruits methods', () => {
   it('API', () => {
     assert.strictEqual(typeof fruits.find, 'function');
